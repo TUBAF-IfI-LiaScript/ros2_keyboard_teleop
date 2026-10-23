@@ -25,6 +25,10 @@ ros2 launch keyboard_teleop anzeige.launch.py      # zweites Terminal
 
 `keyboard_input` braucht die Tastatur seines eigenen Terminals und wird deshalb mit `ros2 run` gestartet, nicht aus einer Launch-Datei.
 
+## Vorlagen für Ü 2
+
+Der Ordner `vorlagen_ue2/` enthält die Dateien, die in Ü 2 in das eigene Paket `mein_teleop` kopiert werden: `umsetzer.py` (mit zwei TODO), `launch/teleop.launch.py` und `config/umsetzer.yaml`. Die Datei `COLCON_IGNORE` verhindert, dass `colcon` den Ordner baut.
+
 ## Parameter
 
 | Knoten | Parameter | Standard |
