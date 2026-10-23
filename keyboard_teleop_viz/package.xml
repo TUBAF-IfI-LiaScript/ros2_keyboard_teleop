@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>keyboard_teleop_viz</name>
+  <version>1.0.0</version>
+  <description>Zeigt die Tastatur-Vorgabe von keyboard_teleop_cpp als Balken im Terminal an.</description>
+  <maintainer email="sebastian.zug@informatik.tu-freiberg.de">Sebastian Zug</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
